@@ -3,7 +3,6 @@ import re
 from bs4 import BeautifulSoup
 import pymongo
 
-item_info_list = list()
 item_info_dict = dict()
 
 connection = pymongo.MongoClient()
